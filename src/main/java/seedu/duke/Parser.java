@@ -224,7 +224,7 @@ public class Parser {
             commandType = getDeleteCommand(inputs, isProjectListView);
             break;
         case "home":
-            commandType = new HomeCommand(projectIndex);
+            commandType = new Homegit Command(projectIndex);
             break;
         case "member":
             commandType = getAddMemberCommand(inputs);
